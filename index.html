@@ -1,39 +1,345 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+
 <head>
 	<title>Jorge's Website</title>
-	<!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="public/css/app.css">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
-<body class="text-center" data-gr-c-s-loaded="true">
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <header class="masthead mb-auto">
-      <div class="inner">
-        <h3 class="masthead-brand">Jorge Garcia</h3>
-        <nav class="nav nav-masthead justify-content-center">
-          <a class="nav-link active" href="">About Me</a>
-          <a class="nav-link" href="">Projects</a>
-          <a class="nav-link" href="">Contact</a>
-        </nav>
-      </div>
-    </header>
 
-    <main role="main" class="inner cover">
-      <h1 class="cover-heading">Hello, I'm Jorge Garcia.</h1>
-      <p class="lead">Fitness aficionado looking to promote and inspire healthy lifestyles through the power of technology. Rising 3rd-year Computer Science student at The University of Texas at Austin with a minor in Enrepreneurship. Full time runner, gym lover, boulderer, and advocate of diversity in tech.</p>
-      <p class="lead">
-        <a href="" class="btn btn-lg btn-danger">Website under construction - come back soon :)</a>
-      </p>
-    </main>
-  </div>
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+<body class="homepage is-preload">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<div id="header">
+
+			<!-- Inner -->
+			<div class="inner">
+				<header>
+					<h1><a href="index.html" id="logo">Hello, I am Jorge Garcia</a></h1>
+					<hr />
+					<p>Runner, Boulderer, Diversity Advocate, Technologist, Entrepreneur, Leader</p>
+				</header>
+				<footer>
+					<a href="#banner" class="button circled scrolly">About me</a>
+				</footer>
+			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#banner">Activities</a></li>
+					<li><a href="#main">Bio</a></li>
+					<li><a href="#features">Projects</a></li>
+					<li><a href="https://drive.google.com/file/d/1TWifOKWqzUWCpoo0fLoXE_nlb2ZDhEw-/view?usp=sharing">Resume</a></li>
+					<li><a href="mailto:jorgegarcia525@gmail.com">Contact</a></li>
+				</ul>
+			</nav>
+
+		</div>
+
+		<!-- Banner -->
+		<section id="banner">
+			<header>
+				<h2>These are my activities and hobbies.</h2>
+				<p>
+					I like to keep myself busy!
+				</p>
+			</header>
+		</section>
+
+		<!-- Carousel -->
+		<section class="carousel" id="activities">
+			<div class=" reel ">
+
+				<article style>
+					<a href="https://www.mindsight.io/ " class="image featured "><img src="images/mindsight-logo.png " alt=" " /></a>
+					<header>
+						<h3><a href="https://www.mindsight.io/ ">Software Engineer Intern at Mindsight</a></h3>
+					</header>
+					<p>Front-end web developer working on dashboard design, data visualization, and new features using Vue.js and Bulma
+						frameworks.
+					</p>
+				</article>
+
+				<article>
+					<a href="https://www.utshpe.org/ " class="image featured "><img src="images/shpe-logo.jpeg " alt=" " /></a>
+					<header>
+						<h3><a href="https://www.utshpe.org/ ">Society of Hispanic Professional Engineers Athletics Director</a></h3>
+					</header>
+					<p>Promoting healthy lifestyles by managing intramural sports, leading the running club, and enacting fitness initiatives.
+					</p>
+				</article>
+
+				<article>
+					<a href="http://www.divday.org/ " class="image featured "><img src="images/divday-logo.png " alt=" " /></a>
+					<header>
+						<h3><a href="http://www.divday.org/ ">HACS + ABCS Div Day Committee President</a></h3>
+					</header>
+					<p>Obtaining speakers and leading committee to put on a conference at UT Austin to promote diversity and inclusion in
+						tech.
+					</p>
+				</article>
+
+				<article>
+					<a href="http://www.texasrunning.org/home/ " class="image featured "><img src="https://images.unsplash.com/photo-1485388276992-0ce5ce2d6981?ixlib=rb-0.3.5&s=69c91298acaa2b078cda5d9eb0272f99&auto=format&fit=crop&w=1399&q=80"
+						 alt=" " /></a>
+					<header>
+						<h3><a href="http://www.texasrunning.org/home/ ">Texas Running Club Member</a>
+							</p>
+						</h3>
+					</header>
+					<p>
+						Competing in races such as 5Ks, 10Ks, half marathons, and 200-mile relay races, and also volunteering in local races to run
+						water and cheer stands.
+					</p>
+				</article>
+
+				<article>
+					<a href="# " class="image featured "><img src="https://images.unsplash.com/photo-1517599652-86163851f0de?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dbce718a81e7ee79e4cacf12ce9ddf4a&auto=format&fit=crop&w=800&q=60"
+						 alt=" " /></a>
+					<header>
+						<h3><a href="# ">Bouldering</a></h3>
+					</header>
+					<p>I love going bouldering at gyms around Austin, and I try to go twice a week. I am currently working on getting past
+						V3-V4 climbs.</p>
+				</article>
+
+			</div>
+		</section>
+
+		<!-- Main -->
+		<div class="wrapper style2 ">
+
+			<article id="main" class="container special ">
+				<a href="#" class="image featured "><img src="images/tir-finish.JPG" alt=" " /></a>
+				<header>
+					<h2 id="bio">My Bio</h2>
+					<p>
+						I am the shirtless dude in the picture above by the way.
+					</p>
+				</header>
+				<footer>
+					<p>
+						I am a third-year Computer Science major at the University of Texas at Austin with a minor in Entrepreneurship. I am currently
+						a part-time intern at a startup called Mindsight, where I do front-end web development using Vue.js and Bulma. I am
+						incredibly involved in the Society of Hispanic Professional Engineers (SHPE), and I am the Athletics Director for this
+						year. Also, I am the President of the Div Day Committee which is a committee composed of members from the Hispanic
+						Association of Computer Scientists (HACS) and the Association of Black Computer Scientists (ABCS). To elaborate on
+						Div Day, it is a conference hosted at UT Austin focused on promoting diversity and inclusion in tech and STEM. Div
+						Day, it is a conference hosted at UT Austin focused on promoting diversity and inclusion in tech and STEM.
+					</p>
+					<p>
+						Furthermore, my hobbies include running and bouldering, both of which I am really passionate about. I have competed in many
+						local races like the Austin Half Marathon and Capital to Coast relay (a 223-mile relay!). Also, my love for bouldering
+						came summer 2018, and I have been hooked on it ever since. To add a little more, I am a video game nerd that has no
+						time to play video games, and I also enjoy watching movies (especially Star Wars).
+					</p>
+				</footer>
+			</article>
+
+		</div>
+
+		<!-- Features -->
+		<div class="wrapper style1">
+
+			<section id="features" class="container special">
+				<header>
+					<h2>My Projects</h2>
+					<p>Check out some of my personal and group projects!</p>
+				</header>
+				<div class="row">
+					<article class="col-4 col-12-mobile special">
+						<a href="https://yelpy-camp-production.herokuapp.com/" class="image featured"><img src="images/yelp-camp-screenshot.png"
+							 alt="" /></a>
+						<header>
+							<h3><a href="https://yelpy-camp-production.herokuapp.com/">Yelp Camp</a></h3>
+						</header>
+						<p>
+							A complete web application that supports users and is connected to a MongoDB database made to share and comment on campgrounds.
+							Made using Node.js, Express, and Bootstrap, and deployed using Heroku.
+						</p>
+					</article>
+					<!-- <article class="col-4 col-12-mobile specials">
+						<a href="#" class="image featured"><img src="images/pic08.jpg " alt=" " /></a>
+						<header>
+							<h3><a href="#">Sed quis rhoncus placerat</a></h3>
+						</header>
+						<p>
+							Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam porttitor phasellus tempus
+							cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+						</p>
+					</article>
+					<article class="col-4 col-12-mobile special">
+						<a href="#" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
+						<header>
+							<h3><a href="# ">Disaster Heat Map</a></h3>
+						</header>
+						<p>
+							Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam porttitor phasellus tempus
+							cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+						</p>
+					</article> -->
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		<div id="footer">
+			<div class="container">
+				<!-- <div class="row "> -->
+
+				<!-- Facebook Posts -->
+				<!-- <section class="col-4 col-12-mobile ">
+						<header>
+							<h2 class="icon fa-twitter circled "><span class="label ">Tweets</span></h2>
+						</header>
+						<ul class="divided ">
+							<li>
+								<article class="tweet ">
+									Amet nullam fringilla nibh nulla convallis tique ante sociis accumsan.
+									<span class="timestamp ">5 minutes ago</span>
+								</article>
+							</li>
+							<li>
+								<article class="tweet ">
+									Hendrerit rutrum quisque.
+									<span class="timestamp ">30 minutes ago</span>
+								</article>
+							</li>
+							<li>
+								<article class="tweet ">
+									Curabitur donec nulla massa laoreet nibh. Lorem praesent montes.
+									<span class="timestamp ">3 hours ago</span>
+								</article>
+							</li>
+							<li>
+								<article class="tweet ">
+									Lacus natoque cras rhoncus curae dignissim ultricies. Convallis orci aliquet.
+									<span class="timestamp ">5 hours ago</span>
+								</article>
+							</li>
+						</ul>
+					</section> -->
+
+				<!-- Posts -->
+				<!-- <section class="col-4 col-12-mobile ">
+						<header>
+							<h2 class="icon fa-file circled "><span class="label ">Posts</span></h2>
+						</header>
+						<ul class="divided ">
+							<li>
+								<article class="post stub ">
+									<header>
+										<h3><a href="# ">Nisl fermentum integer</a></h3>
+									</header>
+									<span class="timestamp ">3 hours ago</span>
+								</article>
+							</li>
+							<li>
+								<article class="post stub ">
+									<header>
+										<h3><a href="# ">Phasellus portitor lorem</a></h3>
+									</header>
+									<span class="timestamp ">6 hours ago</span>
+								</article>
+							</li>
+							<li>
+								<article class="post stub ">
+									<header>
+										<h3><a href="# ">Magna tempus consequat</a></h3>
+									</header>
+									<span class="timestamp ">Yesterday</span>
+								</article>
+							</li>
+							<li>
+								<article class="post stub ">
+									<header>
+										<h3><a href="# ">Feugiat lorem ipsum</a></h3>
+									</header>
+									<span class="timestamp ">2 days ago</span>
+								</article>
+							</li>
+						</ul>
+					</section> -->
+
+				<!-- Instagram Photos -->
+				<!-- <section class="col-4 col-12-mobile ">
+						<header>
+							<h2 class="icon fa-camera circled "><span class="label ">Photos</span></h2>
+						</header>
+						<div class="row gtr-25 ">
+							<div class="col-6 ">
+								<a href="# " class="image fit "><img src="images/pic10.jpg " alt=" " /></a>
+							</div>
+							<div class="col-6 ">
+								<a href="# " class="image fit "><img src="images/pic11.jpg " alt=" " /></a>
+							</div>
+							<div class="col-6 ">
+								<a href="# " class="image fit "><img src="images/pic12.jpg " alt=" " /></a>
+							</div>
+							<div class="col-6 ">
+								<a href="# " class="image fit "><img src="images/pic13.jpg " alt=" " /></a>
+							</div>
+							<div class="col-6 ">
+								<a href="# " class="image fit "><img src="images/pic14.jpg " alt=" " /></a>
+							</div>
+							<div class="col-6 ">
+								<a href="# " class="image fit "><img src="images/pic15.jpg " alt=" " /></a>
+							</div>
+						</div>
+					</section> -->
+
+				<!-- </div>
+				<hr /> -->
+				<div class="row">
+					<div class="col-12">
+
+						<!-- Contact -->
+						<section class="contact">
+							<header>
+								<h3>Want to connect or learn more about me?</h3>
+							</header>
+							<p>Check me out in these social and proffesional networks, or take a look at my projects on Github!</p>
+							<ul class="icons">
+								<li><a href="https://www.facebook.com/profile.php?id=100013352347881" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/jooorge_garcia/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://www.github.com/jgarcia525" class="icon fa-github"><span class="label">Instagram</span></a></li>
+								<li><a href="https://www.linkedin.com/in/garcia-jorge" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+							</ul>
+						</section>
+
+						<!-- Copyright -->
+						<!-- <div class="copyright ">
+							<ul class="menu ">
+								<li>&copy; Untitled. All rights reserved.</li>
+								<li>Design: <a href="http://html5up.net ">HTML5 UP</a></li>
+							</ul>
+						</div> -->
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js "></script>
+	<script src="assets/js/jquery.dropotron.min.js "></script>
+	<script src="assets/js/jquery.scrolly.min.js "></script>
+	<script src="assets/js/jquery.scrollex.min.js "></script>
+	<script src="assets/js/browser.min.js "></script>
+	<script src="assets/js/breakpoints.min.js "></script>
+	<script src="assets/js/util.js "></script>
+	<script src="assets/js/main.js "></script>
+
 </body>
+
 </html>
