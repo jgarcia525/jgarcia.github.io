@@ -1898,6 +1898,11 @@ footer {
   width: 100%;
 }
 
+.image.bio-image {
+  width: 60% !important;
+  margin: auto auto !important;
+}
+
 .image.fit {
   display: block;
   width: 100%;
@@ -1921,7 +1926,6 @@ footer {
 
 .image.centered img {
   margin: 0 auto;
-  width: auto;
 }
 
 /* List */
